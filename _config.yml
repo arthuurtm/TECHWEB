@@ -4,3 +4,6 @@ baseurl: ""
 url: "" 
 theme: minima 
 markdown: kramdown 
+collections:
+  projetos:
+    output: true
