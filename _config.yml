@@ -1,0 +1,6 @@
+title: Sites pessoais
+description: Site estatico com roadmap e projetos
+baseurl: "" 
+url: "" 
+theme: minima 
+markdown: kramdown 
