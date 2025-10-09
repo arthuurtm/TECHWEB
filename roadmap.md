@@ -4,5 +4,5 @@ title: Roadmap
 --- 
 # Roadmap do Site 
 - [x] Criar estrutura Jekyll 
-- [ ] Adicionar projetos 
-- [ ] Publicar no GitHub Pages 
+- [x] Adicionar projetos 
+- [x] Publicar no GitHub Pages 

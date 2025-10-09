@@ -1,9 +1,6 @@
 title: Sites pessoais
 description: Site estatico com roadmap e projetos
-baseurl: "" 
+baseurl: "/TECHWEB"
 url: "" 
 theme: minima 
 markdown: kramdown 
-collections:
-  projetos:
-    output: true
