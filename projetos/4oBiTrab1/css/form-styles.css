@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    align-self: center;
+    height: 100vh;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 15px;
+    padding: 35px;
+    gap: 5px;
+    width: 800px;
+    height: 320px;
+    border: 2px solid #efeded;
+    background-color: transparent;
+    transition : border 300ms ease-out;
+}
+
+.form .left {
+    grid-column: 1;
+}
+
+.form .right {
+    display: grid;
+    position: relative;
+    grid-column: 2;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+.form .left h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.form p {
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.form label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #000;
+    transition: all linear 160ms;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Separa inputs e botão */
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.sepElements {
+    display: flex; 
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.joinElements {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.joinElements-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 15px
+}
+
+.sepButtons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 10px
+}
+
+.show {
+    display: block;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.centered > div {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.active {
+    display: block;
+}
+
+.inactive {
+    display: none;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #efeded;
+}
+
+.uiMiniMsgBox {
+    text-align: center;
+    margin: 15px 30px 0px 30px;
+}
